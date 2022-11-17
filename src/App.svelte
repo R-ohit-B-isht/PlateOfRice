@@ -1,6 +1,7 @@
 <script>
 	import {fade,fly,scale,slide} from"svelte/transition";
 	import Dashboard from "./Dashboard.svelte";
+	import Login from "src/auth/index.js"
 	export let name;
 	let version;
 	const get_version=async()=>{
@@ -14,7 +15,8 @@
 </script>
 
 <main>
-	<h1>Hello there on {name}!</h1>
+	<Login/>
+	<!-- <h1>Hello there on {name}!</h1>
 	<button on:click|once={get_version}>Version:{version || "Get version"}</button>
 	{#if user.loggedin}
 		<div in:fade>
@@ -22,7 +24,7 @@
 		</div>
 		{:else}
 		<button in:fly={{x:200}} on:click={() => user.loggedin=true}>Login</button>
-	{/if}
+	{/if} -->
 </main>
 
 <style>

@@ -13,4 +13,4 @@
 
 {name}
 
-<button class="btn--xs u-gap-2"on:click={logout}>Logout</button> 
+<button class="btn--xs"on:click={logout}>Logout</button> 

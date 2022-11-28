@@ -31,10 +31,8 @@
 		
 		
     </div>
-    <div class="grid-c-4 grid-r-6 row level " style="background: linear-gradient(to right, #8e2de2, #4a00e0); color: #fff; border-radius: .25rem;">
-        <b>
-			<div class="col">
-			<button>Dashboard</button></div>
+    <div class="grid-c-4 grid-r-12 row level col-xs-3" style="background: linear-gradient(to right, #8e2de2, #4a00e0); color: #fff; border-radius: .25rem;">
+        <b><button>Dashboard</button>
 			<button>Wallpaper</button>
 		</b>
 		

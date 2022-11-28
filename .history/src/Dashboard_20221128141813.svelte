@@ -12,5 +12,5 @@
 </script>
 
 {name}
-
-<button class="btn--xs u-gap-2"on:click={logout}>Logout</button> 
+<br>
+<button on:click={logout}>Logout</button> 

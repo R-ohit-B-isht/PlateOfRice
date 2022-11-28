@@ -31,26 +31,18 @@
 		
 		
     </div>
-    <div class="grid-c-4 grid-r-6 row level " style="background: linear-gradient(to right, #8e2de2, #4a00e0); color: #fff; border-radius: .25rem;">
-        <b>
-			<div class="col">
-			<button>Dashboard</button></div>
-			<button>Wallpaper</button>
-		</b>
+    <div class="grid-c-4 grid-r-12" style="background: linear-gradient(to right, #8e2de2, #4a00e0); color: #fff; border-radius: .25rem;">
+        <b><p>Dashboard</p></b>
 		
     </div>
     <div class="grid-c-8 grid-r-3" style="background: linear-gradient(to right, #8e2de2, #4a00e0); color: #fff; border-radius: .25rem;">
-        <p><b><img src="./Frame 51.png" alt="" srcset=""></b></p>
+        <p><b><img src="./Frame 51.png" alt="err" srcset=""></b></p>
     </div>
     <div class="grid-c-4 grid-r-3" style="background: linear-gradient(to right, #8e2de2, #4a00e0); color: #fff; border-radius: .25rem;">
-        <p><b>Theme1</b>
-		<button class="btn--xs">Apply</button>
-		</p>
+        <p><b>Sub Content</b></p>
     </div>
     <div class="grid-c-4 grid-r-3" style="background: linear-gradient(to right, #8e2de2, #4a00e0); color: #fff; border-radius: .25rem;">
-        <p><b>Theme2</b>
-		<button class="btn--xs">Apply</button>
-		</p>
+        <p><b>Sub Content</b></p>
     </div>
     
 </div>	

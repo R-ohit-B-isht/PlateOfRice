@@ -1,7 +1,7 @@
 <script>
 	import {fade,fly,scale,slide} from"svelte/transition";
 	import Dashboard from "./Dashboard.svelte";
-	// import f51 from 'src/Frame 51.png.'
+	
 	let version;
 	const get_version=async()=>{
 		version=await api.GetVersion()
@@ -20,37 +20,28 @@
     <div class="col-xs-3 level-item">
     </div>
     <div class="col-xs-9 level-item u-gap-2"><input type="name" value="find"><b>	{#if user.loggedin}
-		<div class="col-xs-9 level-item u-gap-2 center" in:fade>
+		<div class="col-xs-9 level-item u-gap-2" in:fade>
 		<Dashboard  on:logout={()=>user.loggedin=false} {...user}/>
 		</div>
 		{:else}
 		<button class="btn--xs"in:fly={{x:200}} on:click={() => user.loggedin=true}>Login</button>
-	{/if}</b>
-</div>
+	{/if}</b></div>
 </div>
 		
 		
     </div>
-    <div class="grid-c-4 grid-r-6 row level " style="background: linear-gradient(to right, #8e2de2, #4a00e0); color: #fff; border-radius: .25rem;">
-        <b>
-			<div class="col">
-			<button>Dashboard</button></div>
-			<button>Wallpaper</button>
-		</b>
+    <div class="grid-c-4 grid-r-12" style="background: linear-gradient(to right, #8e2de2, #4a00e0); color: #fff; border-radius: .25rem;">
+        <b><p>Dashboard</p></b>
 		
     </div>
     <div class="grid-c-8 grid-r-3" style="background: linear-gradient(to right, #8e2de2, #4a00e0); color: #fff; border-radius: .25rem;">
-        <p><b><img src="./Frame 51.png" alt="" srcset=""></b></p>
+        <p><b>Main Content</b></p>
     </div>
     <div class="grid-c-4 grid-r-3" style="background: linear-gradient(to right, #8e2de2, #4a00e0); color: #fff; border-radius: .25rem;">
-        <p><b>Theme1</b>
-		<button class="btn--xs">Apply</button>
-		</p>
+        <p><b>Sub Content</b></p>
     </div>
     <div class="grid-c-4 grid-r-3" style="background: linear-gradient(to right, #8e2de2, #4a00e0); color: #fff; border-radius: .25rem;">
-        <p><b>Theme2</b>
-		<button class="btn--xs">Apply</button>
-		</p>
+        <p><b>Sub Content</b></p>
     </div>
     
 </div>	

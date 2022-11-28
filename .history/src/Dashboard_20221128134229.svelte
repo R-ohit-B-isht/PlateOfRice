@@ -11,6 +11,7 @@
     }
 </script>
 
-{name}
-
-<button class="btn--xs u-gap-2"on:click={logout}>Logout</button> 
+<h1>Welcome Back! {name} </h1>
+<h2>username: {username}</h2>
+<br>
+<button on:click={logout}>Logout</button> 

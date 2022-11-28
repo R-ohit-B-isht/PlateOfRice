@@ -25,6 +25,7 @@
     "electron-pack": "electron-builder"
   },
   "dependencies": {
+    "cirrus-ui": "^0.7.1",
     "electron-reload": "^2.0.0-alpha.1",
     "electron-serve": "^1.1.0",
     "firebase": "^9.14.0"

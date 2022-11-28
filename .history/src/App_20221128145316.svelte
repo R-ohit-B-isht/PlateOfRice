@@ -31,11 +31,9 @@
 		
 		
     </div>
-    <div class="grid-c-4 grid-r-6 row level " style="background: linear-gradient(to right, #8e2de2, #4a00e0); color: #fff; border-radius: .25rem;">
-        <b>
-			<div class="col">
-			<button>Dashboard</button></div>
-			<button>Wallpaper</button>
+    <div class="grid-c-4 grid-r-12" style="background: linear-gradient(to right, #8e2de2, #4a00e0); color: #fff; border-radius: .25rem;">
+        <b><a href="#">Dashboard</a>
+		<a href="#">Wallpaper</a>
 		</b>
 		
     </div>
@@ -44,12 +42,12 @@
     </div>
     <div class="grid-c-4 grid-r-3" style="background: linear-gradient(to right, #8e2de2, #4a00e0); color: #fff; border-radius: .25rem;">
         <p><b>Theme1</b>
-		<button class="btn--xs">Apply</button>
+		<button class="btn--xs"></button>
 		</p>
     </div>
     <div class="grid-c-4 grid-r-3" style="background: linear-gradient(to right, #8e2de2, #4a00e0); color: #fff; border-radius: .25rem;">
         <p><b>Theme2</b>
-		<button class="btn--xs">Apply</button>
+		<button class="btn--xs"></button>
 		</p>
     </div>
     

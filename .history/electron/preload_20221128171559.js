@@ -1,5 +1,4 @@
 var sudo = require('sudo-prompt');
-const { exec } = require("child_process");
 var options = {
   name: 'Electron',
   icns: '/Applications/Electron.app/Contents/Resources/Electron.icns', // (optional)
@@ -13,13 +12,13 @@ const WINDOW_API={
       console.log('stdout: ' + stdout);
     }
   ),
-  W1:()=>exec('feh --bg-scale /home/rohit/Pictures/wp4438955-neon-retro-girl-wallpapers.jpg', options,
+  W1:()=>sudo.exec('feh --bg-scale /home/rohit/Pictures/wp4438955-neon-retro-girl-wallpapers.jpg', options,
   function(error, stdout, stderr) {
     if (error) throw error;
     console.log('stdout: ' + stdout);
   }
 ),
-W2:()=>exec('feh --bg-scale /home/rohit/Pictures/bilal-o-ljXekphwr40-unsplash.jpg', options,
+W2:()=>sudo.exec('feh --bg-scale /home/rohit/Pictures/bilal-o-ljXekphwr40-unsplash.jpg', options,
   function(error, stdout, stderr) {
     if (error) throw error;
     console.log('stdout: ' + stdout);

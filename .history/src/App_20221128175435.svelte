@@ -34,13 +34,13 @@ function modeChange(){
 
 <main>
 <div class="grid u-gap-2 u-text-center">
-    <div class="grid-c-12 grid-r-1 u-text-right u-gap-1" style="background: linear-gradient(to right, #8e2de2, #4a00e0); color: #fff; border-radius: .25rem;">
+    <div class="grid-c-12 grid-r-1 u-text-center u-gap-1" style="background: linear-gradient(to right, #8e2de2, #4a00e0); color: #fff; border-radius: .25rem;">
 		<div class="row level">
     <div class="col-xs-3 level-item">
     </div>
-    <div class="col-m-9 level-item u-gap-2"><input type="name" value="find"><b>
+    <div class="col-xs-9 level-item u-gap-2"><input type="name" value="find"><b>
 		{#if user.loggedin}
-		<div class="col-m-9 level-item u-gap-2 " in:fade>
+		<div class="col-xs-9 level-item u-gap-2 center" in:fade>
 		<Dashboard  on:logout={()=>user.loggedin=false} {...user}/>
 		</div>
 		{:else}

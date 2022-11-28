@@ -38,9 +38,9 @@ function modeChange(){
 		<div class="row level">
     <div class="col-xs-3 level-item">
     </div>
-    <div class="col-m-9 level-item u-gap-2"><input type="name" value="find"><b>
+    <div class="col-xs-9 level-item u-gap-2"><input type="name" value="find"><b>
 		{#if user.loggedin}
-		<div class="col-m-9 level-item u-gap-2 " in:fade>
+		<div class="col-xs-9 level-item u-gap-2 center" in:fade>
 		<Dashboard  on:logout={()=>user.loggedin=false} {...user}/>
 		</div>
 		{:else}
